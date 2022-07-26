@@ -15,6 +15,7 @@ public class program_03 {
         
         float intrest = (float)(price*rate*years)/100;
 
-        System.out.println("Your simple intrest is: "+intrest);        
+        System.out.println("Your simple intrest is: "+intrest);   
+        input.close();
     }
 }

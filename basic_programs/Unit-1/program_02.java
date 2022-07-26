@@ -17,5 +17,6 @@ class program_02{
         System.out.println("mul of Two Number is: "+(num1*num2));
         System.out.println("div of Two Number is: "+(num1/num2));
 
+        input.close();
     }
 }
