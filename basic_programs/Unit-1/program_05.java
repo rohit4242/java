@@ -16,8 +16,8 @@ public class program_05 {
             total += sub[i];
         }
 
-        int per = (total/100);
+        int per = (total*3)/100;
+
         
-    
     }
 }
