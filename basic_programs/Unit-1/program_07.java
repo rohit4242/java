@@ -32,5 +32,6 @@ class program_07{
         }
 
         System.out.println("Max is: "+max);
+        input.close();
     }
 }

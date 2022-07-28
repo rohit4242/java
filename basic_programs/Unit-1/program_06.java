@@ -25,5 +25,6 @@ class program_06{
         }
 
         System.out.println("your maximum number is: "+max);
+        input.close();
     }
 }
