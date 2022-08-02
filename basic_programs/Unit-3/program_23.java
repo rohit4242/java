@@ -10,7 +10,7 @@ class b extends a{
         System.out.println("b");
     }
 }
-class c extends a,b{
+class c extends a{
     void displayC(){
         System.out.println("c");
     }
@@ -20,7 +20,6 @@ class program_23{
     {
         c obj = new c();
         obj.displayA();
-        obj.displayB();
         obj.displayC();
     }
 }
