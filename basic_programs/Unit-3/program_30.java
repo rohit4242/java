@@ -45,11 +45,11 @@ interface A2 {
 }
 
 class program_30 implements A1, A2 {
-	@Override
+	// @Override
     public void print() {
         System.out.println("Hello");
     }
-	@Override
+	// @Override
     public void show() {
         System.out.println("Welcome");
     }
